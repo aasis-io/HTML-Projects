@@ -1,8 +1,61 @@
-td {
-    text-align: center;
+/* td {
+  text-align: center;
 }
 
-img{
+img {
   width: 200px;
-  height: 200px;  
+  height: 200px;
 }
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+.form-container {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 350px;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-container form .form-group{
+  margin: 2rem 0;
+}
+
+.form-container form .form-group span{
+ font-size: 1.5rem;
+ font-weight: 500;
+ display: block;
+ margin: 10px 0;
+}
+
+.form-container form .form-group input{
+  font-size: 1rem;
+  font-weight: 500;
+  width: 300px;
+  display: block;
+  margin: 10px 0;
+  height: 2rem;
+  border: 1px solid #323232;
+  border-radius: 6px;
+ }
+
+ .form-container form .login button{
+  padding: .8rem 1.5rem;
+  color: #fff;
+  background: #0275d8;
+  border: none;
+  border-radius: 4px;
+  font-weight: 800;
+ }
+ .form-container form .login button:hover{
+  cursor: pointer;
+ } */
+
+ .form-group{
+  margin: 1rem 0;
+ }
